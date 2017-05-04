@@ -25,4 +25,3 @@ install() {
 # http://netstorage.unity3d.com/unity/3829d7f588f3/unity-5.5.2f1-osx.ini
 
 install "MacEditorInstaller/Unity-$VERSION.pkg"
-#install "MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-$VERSION.pkg"
