@@ -9,7 +9,7 @@ download() {
   url="$BASE_URL/$HASH/$package"
 
   echo "Downloading from $url: "
-  curl -o `basename "$package"` "$url"
+  curl -o `basename "$package"` "$url" —-retry 5
 }
 
 install() {
